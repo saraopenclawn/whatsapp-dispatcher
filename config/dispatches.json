@@ -1,0 +1,26 @@
+{
+  "dispatches": [
+    {
+      "id": "weekly-poll-monday",
+      "type": "poll",
+      "schedule": "0 10 * * 1",
+      "target": "REPLACE_WITH_GROUP_ID@g.us",
+      "content": {
+        "question": "Ako sa cítiš tento týždeň?",
+        "options": ["Výborne", "Dobre", "Ujde", "Zle"],
+        "selectableCount": 1
+      }
+    },
+    {
+      "id": "weekly-poll-thursday",
+      "type": "poll",
+      "schedule": "0 10 * * 4",
+      "target": "REPLACE_WITH_GROUP_ID@g.us",
+      "content": {
+        "question": "Ako sa cítiš tento týždeň?",
+        "options": ["Výborne", "Dobre", "Ujde", "Zle"],
+        "selectableCount": 1
+      }
+    }
+  ]
+}
